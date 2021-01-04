@@ -1,7 +1,7 @@
 
 import './App.css';
 import {AiFillCloseCircle, AiFillCheckCircle} from 'react-icons/ai'
-import {IoWater, IoFastFood , IoHappySharp} from 'react-icons/io5'
+import {IoWater, IoFastFood } from 'react-icons/io5'
 import {GiNightSleep} from 'react-icons/gi'
 import {FaPoo, } from 'react-icons/fa'
 import {RiEmotionHappyFill, RiEmotionUnhappyFill} from 'react-icons/ri'
