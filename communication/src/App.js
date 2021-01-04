@@ -22,14 +22,14 @@ function App() {
 
   return (
     <div className="App">
-      <div className='element' > <AiFillCheckCircle onClick={ () => hablar('Si') }/> </div>
-      <div className='element' > <AiFillCloseCircle onClick={ () => hablar('No') }/> </div>
+      <div className='element' > <AiFillCheckCircle className='icon color-green' onClick={ () => hablar('Si') }/> </div>
+      <div className='element' > <AiFillCloseCircle className='icon color-red' onClick={ () => hablar('No') }/> </div>
 
-      <div className='element' > <GiNightSleep onClick={ () => hablar('Tengo sueño') }/> </div>
-      <div className='element' > <IoFastFood onClick={ () => hablar('Quiero Comer') } /> </div>
+      <div className='element' > <GiNightSleep className='icon color-purple' onClick={ () => hablar('Tengo sueño') }/> </div>
+      <div className='element' > <IoFastFood className='icon color-orange' onClick={ () => hablar('Tengo Hambre') } /> </div>
 
-      <div className='element' > <IoWater onClick={ () => hablar('Quiero Aagua') }/> </div>
-      <div className='element' > <FaPoo onClick={ () => hablar('Cámbiame el calzón porfis') }/> </div>
+      <div className='element' > <IoWater className='icon color-blue' onClick={ () => hablar('Tengo Sed') }/> </div>
+      <div className='element' > <FaPoo className='icon color-brown' onClick={ () => hablar('Cámbiame el calzón, porfis') }/> </div>
 
 
     </div>
